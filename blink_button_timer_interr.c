@@ -4,11 +4,11 @@
     16-April-2018
   
   @Programmer
-    AndrÈs Alfaro
-    Adri·n Bl·zquez  
+    Andr√©s Alfaro
+    Adri√°n Bl√°zquez  
    
   @Company
-    Universidad PolitÈcnica de Madrid
+    Universidad Polit√©cnica de Madrid
 
   @File Name
     blink_2.c
@@ -70,7 +70,7 @@ void button_setup() {
 void timer1_setup () {    
     // INT step 2
     TIMER1_PRESCALE_1_256(); // Prescaler 256
-    PR1 = 31249; // 1.43 Hz
+    PR1 = 21874; // 
     TIMER1_SOURCE_INTERNAL(); // Internal peripheral clock
     TIMER1_ENABLE();  
     TIMER1_INTERR_PRIOR(5); // INT Step 3
